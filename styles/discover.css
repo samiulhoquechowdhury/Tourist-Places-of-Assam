@@ -586,6 +586,30 @@ body {
     background: #234f6d;
     background: linear-gradient(0deg, rgba(35, 79, 109, 0) 0%, #455f7100 100%);
   }
+
+
+  .card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  
+  .read-more-btn button{
+   display: none;
+   /* position: absolute; */
+   border: none; 
+   padding: 4px 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   cursor: pointer;
+   border-radius: 4px;
+  }
+  
+  .card.card-has-bg:hover .read-more-btn button{
+    display: inline-block;
+  }
+  
   
   
   @media (max-width: 768px) {
